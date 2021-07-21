@@ -1,5 +1,7 @@
 ## Sistema de Recomendación con python  
 
+![img](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmorioh.com%2Fp%2F023edf0a8587&psig=AOvVaw2Oms5i3FhrME1_qjqcnJX-&ust=1626963514251000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOD-hJPJ9PECFQAAAAAdAAAAABAJ)
+
 En la práctica, los sistemas de recomendación abarcan una clase de técnicas y algoritmos que pueden sugerir elementos "relevantes" a los usuarios. Idealmente, los elementos sugeridos son tan relevantes para el usuario como sea posible, de modo que el usuario pueda interactuar con esos elementos: videos de YouTube, artículos de noticias, productos en línea, etc.  
 
 Los elementos se clasifican según su relevancia y se muestran al usuario los más relevantes. La relevancia es algo que debe determinar el sistema de recomendación y se basa principalmente en datos históricos. Si recientemente miraste videos de YouTube sobre elefantes, entonces YouTube comenzará a mostrarte muchos videos de elefantes con títulos y temas similares.  
