@@ -1,6 +1,6 @@
 ## Sistema de Recomendación con python  
 
-![img]https://github.com/luishernand/recomendations-system/blob/main/logo.png)
+![img](https://github.com/luishernand/recomendations-system/blob/main/logo.png)
 
 En la práctica, los sistemas de recomendación abarcan una clase de técnicas y algoritmos que pueden sugerir elementos "relevantes" a los usuarios. Idealmente, los elementos sugeridos son tan relevantes para el usuario como sea posible, de modo que el usuario pueda interactuar con esos elementos: videos de YouTube, artículos de noticias, productos en línea, etc.  
 
