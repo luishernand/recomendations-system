@@ -8,6 +8,8 @@ Los elementos se clasifican según su relevancia y se muestran al usuario los m�
 
 Los sistemas de recomendación generalmente se dividen en dos categorías principales: filtrado colaborativo y sistemas basados en contenido.  
 
+<img src="https://github.com/luishernand/recomendations-system/blob/main/63115930-5f6c1900-bf66-11e9-894f-ecde5ec531b0.png" alt="500px" width="500px">  
+
 ### Sistemas de filtrado colaborativo   
 Los métodos de filtrado colaborativo para los sistemas de recomendación son métodos que se basan únicamente en las interacciones pasadas entre los usuarios y los elementos de destino. Por lo tanto, la entrada a un sistema de filtrado colaborativo serán todos los datos históricos de las interacciones del usuario con los elementos de destino. Estos datos generalmente se almacenan en una matriz donde las filas son los usuarios y las columnas son los elementos.  
 
@@ -15,12 +17,9 @@ La idea central detrás de estos sistemas es que los datos históricos de los us
 
 Más allá de esto, los métodos de filtrado colaborativo se dividen en dos subgrupos: ***métodos basados en memoria y métodos basados en modelos***. 
 
+1. **Los métodos basados en memoria** son los más simplistas, ya que no utilizan ningún modelo. Asumen que las predicciones se pueden hacer en la “memoria” pura de datos pasados y, por lo general, solo emplean un enfoque simple de medición de distancia, como el vecino más cercano.
 
-<img src="https://github.com/luishernand/recomendations-system/blob/main/63115930-5f6c1900-bf66-11e9-894f-ecde5ec531b0.png" alt="JuveR" width="500px">  
-
-**Los métodos basados en memoria** son los más simplistas, ya que no utilizan ningún modelo. Asumen que las predicciones se pueden hacer en la “memoria” pura de datos pasados y, por lo general, solo emplean un enfoque simple de medición de distancia, como el vecino más cercano.
-
-**Los enfoques basados en modelos**, por otro lado, siempre asumen algún tipo de modelo subyacente y básicamente tratan de asegurarse de que las predicciones que surjan se ajusten bien al modelo.
+1. **Los enfoques basados en modelos**, por otro lado, siempre asumen algún tipo de modelo subyacente y básicamente tratan de asegurarse de que las predicciones que surjan se ajusten bien al modelo.
 
 A modo de ejemplo, digamos que tenemos una matriz de los usuarios a los artículos de almuerzo preferidos donde todos los usuarios son estadounidenses que aman las hamburguesas con queso (son fenomenales). Un método basado en la memoria solo observará lo que el usuario ha comido durante el último mes, sin considerar el pequeño hecho de que son estadounidenses amantes de las hamburguesas con queso. Un método basado en modelos, por otro lado, asegurará que las predicciones siempre se inclinen un poco más hacia ser una hamburguesa con queso, ya que la suposición del modelo subyacente es que la mayoría de las personas en el conjunto de datos deberían amar las hamburguesas con queso.  
 
