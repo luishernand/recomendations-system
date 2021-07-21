@@ -11,7 +11,9 @@ Los métodos de filtrado colaborativo para los sistemas de recomendación son m�
 
 La idea central detrás de estos sistemas es que los datos históricos de los usuarios deberían ser suficientes para hacer una predicción. Es decir, no necesitamos nada más que esos datos históricos, ningún impulso adicional del usuario, ninguna información de tendencia actual, etc.  
 
-Más allá de esto, los métodos de filtrado colaborativo se dividen en dos subgrupos: ***métodos basados en memoria y métodos basados en modelos***.  
+Más allá de esto, los métodos de filtrado colaborativo se dividen en dos subgrupos: ***métodos basados en memoria y métodos basados en modelos***. 
+
+
 <img src="https://github.com/luishernand/recomendations-system/blob/main/63115930-5f6c1900-bf66-11e9-894f-ecde5ec531b0.png" alt="JuveR" width="500px">  
 
 **Los métodos basados en memoria** son los más simplistas, ya que no utilizan ningún modelo. Asumen que las predicciones se pueden hacer en la “memoria” pura de datos pasados y, por lo general, solo emplean un enfoque simple de medición de distancia, como el vecino más cercano.
