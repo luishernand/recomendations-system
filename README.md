@@ -30,4 +30,4 @@ Por eso, cuando te registras en muchos sitios web y servicios en línea, te pide
 Por lo tanto, los métodos basados en contenido son más similares al aprendizaje automático clásico, en el sentido de que crearemos funciones basadas en datos de usuarios y elementos y las usaremos para ayudarnos a hacer predicciones. La entrada de nuestro sistema son las características del usuario y las características del artículo. La salida de nuestro sistema es la predicción de si al usuario le gustaría o no el artículo.  
 
 
-[tipos]:(https://github.com/luishernand/recomendations-system/blob/main/63115930-5f6c1900-bf66-11e9-894f-ecde5ec531b0.png)
+[tipos]:https://github.com/luishernand/recomendations-system/blob/main/63115930-5f6c1900-bf66-11e9-894f-ecde5ec531b0.png
